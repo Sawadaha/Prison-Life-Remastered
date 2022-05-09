@@ -9,7 +9,7 @@ plr.Character = newChar
 wait()
 plr.Character = chara
 newChar:Destroy()
-wait(a)
+wait(0.8)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1071, -139, 161)
 wait(1.3)
 while task.wait() do
