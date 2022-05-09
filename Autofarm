@@ -10,7 +10,7 @@ wait()
 plr.Character = chara
 newChar:Destroy()
 wait(a)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1071, -139, 161)
+game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = CFrame.new(1071, -139, 161)
 wait(0.2)
 while task.wait() do
     for _,v in pairs(workspace.Map.PrisonPlaces["Laundry Room"]:GetChildren()) do
