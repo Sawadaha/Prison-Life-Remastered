@@ -1,4 +1,4 @@
-local a = 0.8
+
 local plr = game.Players.LocalPlayer
 local chara = plr.Character
 if chara:FindFirstChildOfClass("Humanoid") then chara:FindFirstChildOfClass("Humanoid"):ChangeState(15) end
