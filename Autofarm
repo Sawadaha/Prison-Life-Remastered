@@ -11,7 +11,7 @@ plr.Character = chara
 newChar:Destroy()
 wait(a)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1071, -139, 161)
-wait(2.2)
+wait(a)
 while task.wait() do
     for _,v in pairs(workspace.Map.PrisonPlaces["Laundry Room"]:GetChildren()) do
         if v.Name == "Part" then
